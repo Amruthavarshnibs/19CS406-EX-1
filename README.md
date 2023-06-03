@@ -15,6 +15,7 @@ Stop the program
 
 ## PROGRAM :
 ## CLIENT:
+```
 Developed by : Amrutha varshni
 Register Number : 212222040007
 import socket
@@ -30,7 +31,9 @@ ack=c.recv(1024).decode()
 if ack:
  print(ack)
  c.close()
+ ```
 ## SERVER:
+```
 Developed by :  Amrutha varshni
 Register Number : 212222040007
 import socket
@@ -40,7 +43,7 @@ print(s.getsockname())
 print(s.recv(1024).decode())
 s.send("acknowledgement recived from the server".encode())
 
-
+```
 
 
 
